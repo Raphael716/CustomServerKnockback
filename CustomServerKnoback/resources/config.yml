@@ -1,0 +1,13 @@
+# CustomKB plugin by Zeyroz | CustomKB par Zeyroz
+# © Zeyroz - https://discord.gg/U8QQWAqRTf
+# FR: Plugin permettant de changer le kb de tout un serveur.
+# EN: Plugin that allow you to change the kb of your server.
+
+# Puissance de kb *(Conseillé d'être situé entre 0.300 et 0.500)*
+# 0.400 = kb de base
+knockback: 0.400
+
+# Permet de changer le temps être les coups
+# Temps en MS.
+# 10 = hitcooldown de base.
+attackcooldown: 10.000
