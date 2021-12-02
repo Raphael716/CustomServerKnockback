@@ -3,6 +3,7 @@
 namespace zeyroz\kb;
 
 use pocketmine\event\entity\EntityDamageByEntityEvent;
+# Changement du use
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
@@ -23,7 +24,6 @@ class Main extends PluginBase implements Listener
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getLogger()->info("Plugin CustomKB on -> Créer par Zeyroz#1353");
     }
-
     public function onDamage(EntityDamageByEntityEvent $event) : void
     {
         $entity = $event->getEntity();
