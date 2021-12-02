@@ -3,11 +3,11 @@
 namespace zeyroz\kb;
 
 use pocketmine\event\entity\EntityDamageByEntityEvent;
+use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\item\Item;
-use pocketmine\Player;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\event\player\PlayerDropItemEvent;
